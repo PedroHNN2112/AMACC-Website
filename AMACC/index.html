@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AMACC</title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width">
+    	<link rel="stylesheet" href="index.css">
+
+	</head>
+	<body>
+		<h1 id="titulo">AMACC: Associação das Mulheres Acometidas com Câncer</h1>
+		<div class="header" id="headerIndex">
+			<div class= "dropdown">
+				<button id="dropdownButton">Menu</button>
+				<div class="dropdownContent">
+					<a href="paciente.html">Seja um paciente</a>
+					<a href="contato.html">Contato</a>
+					<a href="doacao.html">Doe</a>
+					<a href="voluntario.html">Como ser voluntário</a>
+				</div>
+			</div>
+				<button class="pagBotoes" id="trabalhoB">Conheça o nosso trabalho</button>
+				<button class="pagBotoes" id="historiaB">História</button>
+				<button class="pagBotoes" id="missaoB">Missão</button>
+				<button class="pagBotoes" id="pacientesB">Pacientes</button>
+		</div>
+
+		<!-- script para mexer no header, com esse script, o header só vai ficar fixo na parte de cima quando a página estiver scrollando pra baixo, quando não estiver, ele não atrapalha o texto e tudo mais-->
+		<script>
+			window.onscroll = function() {headerPos()};
+
+			var header = document.getElementById("headerIndex");
+			var sticky = header.offsetTop;
+
+			function headerPos() {
+			  if (window.pageYOffset > sticky) {
+			    header.classList.add("sticky");
+			  } else {
+			    header.classList.remove("sticky");
+			  }
+			}
+		</script>
+		<!-- script para mexer no header, com esse script, o header só vai ficar fixo na parte de cima quando a página estiver scrollando pra baixo, quando não estiver, ele não atrapalha o texto e tudo mais-->
+
+		<div class="content" id="">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat nulla, itaque excepturi ipsum blanditiis harum minus ab est facilis iste sed modi corrupti consectetur, facere tempore beatae deleniti distinctio.</p>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum rem laborum tenetur mollitia cum incidunt fuga, consequuntur enim eos unde hic reiciendis quam voluptatibus explicabo similique. Similique provident quae omnis.</p>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis quaerat consequatur nostrum accusamus accusantium non harum mollitia, in animi natus, commodi veritatis quasi. Voluptas dolor ullam harum rerum labore!</p>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+		
+		<div class="content" id="historia">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat nulla, itaque excepturi ipsum blanditiis harum minus ab est facilis iste sed modi corrupti consectetur, facere tempore beatae deleniti distinctio.</p>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum rem laborum tenetur mollitia cum incidunt fuga, consequuntur enim eos unde hic reiciendis quam voluptatibus explicabo similique. Similique provident quae omnis.</p>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis quaerat consequatur nostrum accusamus accusantium non harum mollitia, in animi natus, commodi veritatis quasi. Voluptas dolor ullam harum rerum labore!</p>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+
+		<div class="content" id="missao">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat nulla, itaque excepturi ipsum blanditiis harum minus ab est facilis iste sed modi corrupti consectetur, facere tempore beatae deleniti distinctio.</p>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum rem laborum tenetur mollitia cum incidunt fuga, consequuntur enim eos unde hic reiciendis quam voluptatibus explicabo similique. Similique provident quae omnis.</p>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis quaerat consequatur nostrum accusamus accusantium non harum mollitia, in animi natus, commodi veritatis quasi. Voluptas dolor ullam harum rerum labore!</p>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+
+		<div class="content" id="pacientes">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat nulla, itaque excepturi ipsum blanditiis harum minus ab est facilis iste sed modi corrupti consectetur, facere tempore beatae deleniti distinctio.</p>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum rem laborum tenetur mollitia cum incidunt fuga, consequuntur enim eos unde hic reiciendis quam voluptatibus explicabo similique. Similique provident quae omnis.</p>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis quaerat consequatur nostrum accusamus accusantium non harum mollitia, in animi natus, commodi veritatis quasi. Voluptas dolor ullam harum rerum labore!</p>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+
+
+	</body>
+</html>

@@ -1,0 +1,27 @@
+Páginas:
+
+Inicial (index.html):
+	Conheça o nosso trabalho 
+	História
+	Missão
+	Pacientes
+
+Seja um paciente (paciente.html):
+	Seja um paciente AMACC
+	Pacientes
+	Contato
+
+Contato (contato.html):
+	Horário de funcionamento
+	Contato
+	Redes sociais
+
+Doe (doacao.html):
+	Trabalho Social	
+	DOE
+
+Como ser voluntário (voluntario.html):
+	Horário de funcionamento
+	Como ser voluntário
+	Contato
+	
