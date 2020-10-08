@@ -16,6 +16,9 @@
 	padding: 20px;
 	margin-top: 0;
 }
+.header a{
+	text-decoration: none;
+}
 
 .sticky{
 	position: fixed;
