@@ -97,21 +97,34 @@ body{
 	display: flex;
   	align-items: center;
   	justify-content: center;
-  	text-align: bottom;
+	text-align: bottom;
 }
 
 .botaoMenu{
-	border-radius: 50%;
 	text-align: center;
   	text-decoration: none;
   	color: white;
-  	display: outline-block;
   	font-size: 50px;
   	cursor: pointer;
-  	padding: 60px;
   	background-color: #82A5F6;
-  	margin: 24px 12px;
-  	border: all;
+	border: 6px solid #F9F1F7;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+#paciente {
+	position: absolute;
+	z-index: 2;
+}
+
+#trabalho #voluntario {
+	position: absolute;
+	z-index: 1;
+}
+
+#voluntario {
+	margin-left: 250px;
 }
 
 .botaoApoie{
@@ -119,8 +132,13 @@ body{
 	background-color: #F9F1F7;
 	color: black;
 	text-decoration: none;
-	padding: 10px;
-
+	padding: 8px;
+	width: 150px;
+	height: 10px;
+	line-height: 10px;
+	display: block;
+	margin: 0 auto;
+	margin-top: -12px;
 }
 
 .botaoRedes{
@@ -130,4 +148,43 @@ body{
 	text-decoration: none;
 	padding: 10px;
 	margin-bottom: 0px;
+}
+
+#redes-sociais {
+	margin: 0 auto;
+	width: 120px;
+	height: 60px;
+}
+
+#botaoFacebook {
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #F9F1F7 url(/AMACC/facebook.png) no-repeat center;
+	background-size: 30px;
+	text-indent: -9999px;
+}
+
+#botaoInstagram {
+	display: block;
+	margin: 0 auto;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #F9F1F7 url(/AMACC/instagram.png) no-repeat center;
+	background-size: 30px;
+	text-indent: -9999px;
+}
+
+#rodape p {
+	width: 40%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin: 0 auto;
+	color: #50636c;
+	border-bottom: 1px solid #50636c;
 }
