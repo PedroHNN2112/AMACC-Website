@@ -1,0 +1,36 @@
+body {
+    background: url("/AMACC/PAGINAS/DOACÃO/ELEMENTO_1.jpg");
+    font-size: 1.8em;
+}
+
+#container {
+    border: 1px solid blue;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+#container p {
+    border: 1px solid red;
+    width: 60%;
+}
+
+#doacao {
+    width: 20%;
+    height: 80px;
+    background: url("/AMACC/PAGINAS/DOACÃO/Ativo\ 3.png") no-repeat;
+    background-size: 100%;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+#container img {
+    display: block;
+    margin-top: -5px;
+    width: 62px;
+}

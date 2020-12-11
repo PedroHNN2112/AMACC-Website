@@ -1,0 +1,48 @@
+body {
+    background: #50636c;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#titulo-contato {
+    text-align: left;
+}
+
+#informacoes {
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#informacoes img {
+    margin-right: 20px;
+}
+
+#informacoes .conteudo {
+    margin-bottom: 10px;
+}
+
+form input {
+    background: url("/AMACC/PAGINAS/CONTATO/Ativo\ 14.png");
+    border: none;
+    width: 50%;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    width: 50%;
+    height: 100px;
+}
+
+form button {
+    background: url("/AMACC/PAGINAS/CONTATO/Ativo\ 13.png") no-repeat;
+    background-size: 100%;
+    border: none;
+    width: 10%;
+    height: 25px;
+    cursor: pointer;
+}
