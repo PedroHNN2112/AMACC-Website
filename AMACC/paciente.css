@@ -45,12 +45,24 @@ h1 {
     height: 20%;
 }
 
+#link-pacientes {
+    text-align: center;
+    padding: 20px;
+}
+
+#link-pacientes a {
+    color: white;
+    font-size: 1.2em;
+}
+
 #area-botao {
     border: 1px solid red;
     text-align: center;
+    padding: 15px;
 }
 
 #botao-contato {
+    width: 20%;
     border-radius: 20px;
     padding: 5px;
     background: white;
