@@ -1,0 +1,65 @@
+body, html {
+    border: 1px solid blue;
+    background: url("/AMACC/PAGINAS/SEJA_UM_PACIENTE/Ativo6.png") no-repeat center;
+    background-size: 100% 100%;
+    background-color: #F36DD8;
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+}
+
+#container {
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#titulo-paciente {
+    text-align: left;
+}
+
+#conteudo-paciente {
+    text-align: left;
+}
+
+#pacientes-conosco {
+    text-align: left;
+}
+
+#fotos {
+    border: 1px solid red;
+    text-align: center;
+}
+
+ #ativo1 {
+    border: 1px solid green;
+    width: 40%;
+    height: 40%;
+}
+
+#ativo2 {
+    border: 1px solid green;
+    width: 20%;
+    height: 20%;
+}
+
+#area-botao {
+    border: 1px solid red;
+    text-align: center;
+}
+
+#botao-contato {
+    border-radius: 20px;
+    padding: 5px;
+    background: white;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#texto-area-contato {
+    text-align: center;
+}
